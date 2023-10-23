@@ -45,6 +45,7 @@
 }
 .header__input-search{
     width: 80px;
+    height: 32px;
     border-radius: 1rem;
     background: #1b1b1b;
     border: 1px solid #cdcdcd;
