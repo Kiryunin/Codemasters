@@ -4,12 +4,6 @@
     background: rgb(27, 27, 27);
 }
 
-.sticky-header-container {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
 .sticky-header-container__header {
     height: 64px;
 }
@@ -67,4 +61,10 @@
 
 .header__container {
     margin: 0 auto;
+}
+
+.wrapper__header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }

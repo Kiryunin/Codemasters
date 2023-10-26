@@ -27,7 +27,7 @@
 
 <!-------------------------------- HEADER AND SECTION -------------------------------->
 
-<div class="sticky-header-container">
+<div class="wrapper__header sticky-header-container">
     <header class="header sticky-header-container__header">
         <div class="container header__wrapper-block">
             <div class="row">
@@ -45,16 +45,12 @@
             </div>
 
             <div class="header__actions">
-                <a href="">
-                    <button class="button header__theme-switch-button">Theme</button>
-                </a>
+                <button class="button header__theme-switch-button">Theme</button>
                 <input placeholder="search" class="header__input-search" type="text">
                 <a class="header__login-account link" href="">
-                    <div>Log in</div>
+                    Log in
                 </a>
-                <a href="">
-                    <button class="header__button-sign">Sign up for free</button>
-                </a>
+                <button class="header__button-sign">Sign up for free</button>
             </div>
         </div>
     </header>
@@ -81,7 +77,7 @@
 
 <div class="container wrapper__main page">
     <aside class="aside">
-        <input class="aside_filter" placeholder="Filter" id="aside_filter" type="text">
+        <input class="aside__filter" placeholder="Filter" id="aside_filter" type="text">
         <h2 class="aside__title">HTML</h2>
         <ul class="list-title"><a class="link" href="">Уроки</a>
             <li class="list-item"><a class="link" href="">Основы HTML</a></li>
@@ -99,13 +95,15 @@
             <li class="list-item"><a class="link" href="">Категории контента</a></li>
             <li class="list-item"><a class="link" href="">Блочные элементы</a></li>
             <li class="list-item"><a class="link" href="">Строчные элементы</a></li>
-            <li class="list-item"><a class="link" href="">Режим совместимос (Quirks Mode) и стандартный режим (StandardsMode)</a></li>
+            <li class="list-item"><a class="link" href="">Режим совместимос (Quirks Mode) и стандартный режим
+                (StandardsMode)</a></li>
             <li class="list-item"><a class="link" href="">Date and time formats used in HTML</a></li>
             <li class="list-item"><a class="link" href="">Валидация ограничений</a></li>
             <li class="list-item"><a class="link" href="">Microdata</a></li>
             <li class="list-item"><a class="link" href="">Microformats</a></li>
             <li class="list-item"><a class="link" href="">Viewport meta tag</a></li>
-            <li class="list-item"><a class="link" href="">Разрешение использования изображений из разных источников и canvas</a></li>
+            <li class="list-item"><a class="link" href="">Разрешение использования изображений из разных источников и
+                canvas</a></li>
         </ul>
     </aside>
 
@@ -164,13 +162,13 @@
 
     <!-------------------------------- ASIDE -------------------------------->
     <!-- изменить список -->
-    <aside class="aside aside_width-reduction">
-        <p class="aside_right-content-title">In this article</p>
-        <ul class="list-title list-title_left-border">
-            <li class="list-item list-item_iternal-margin">Руководство для начинающих</li>
-            <li class="list-item list-item_iternal-margin">Продвинутые темы</li>
-            <li class="list-item list-item_iternal-margin">Справочники</li>
-            <li class="list-item list-item_iternal-margin">Похожие темы</li>
+    <aside class="page-navigation">
+        <p class="page-navigation__title">In this article</p>
+        <ul class="list-title page-navigation__links">
+            <li class="list-item page-navigation__link">Руководство для начинающих</li>
+            <li class="list-item page-navigation__link">Продвинутые темы</li>
+            <li class="list-item page-navigation__link">Справочники</li>
+            <li class="list-item page-navigation__link">Похожие темы</li>
         </ul>
     </aside>
 </div>
@@ -237,10 +235,12 @@
             </ul>
         </div>
         <div class="footer__rights">
-            <div class="footer_smaill-size">Visit <a class="footer__link" href="">Mozilla Corporation’s</a> not-for-profit
+            <div class="footer_smaill-size">Visit <a class="footer__link" href="">Mozilla Corporation’s</a>
+                not-for-profit
                 parent, the <a class="footer__link" href="">Mozilla Foundation</a>.
             </div>
-            <div class="footer_smaill-size">Portions of this content are ©1998–2023 by individual mozilla.org contributors.
+            <div class="footer_smaill-size">Portions of this content are ©1998–2023 by individual mozilla.org
+                contributors.
                 Content available under <a class="footer__link" href="">a Creative Commons license</a>.
             </div>
         </div>
