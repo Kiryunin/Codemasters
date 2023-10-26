@@ -1,6 +1,9 @@
+.wrapper__footer {
+    margin: 0 auto;
+    padding: 32px 16px;
+}
 .footer{
     background: #343434;
-    padding: 32px 16px;
 }
 .footer__contact-information{
     display: flex;
